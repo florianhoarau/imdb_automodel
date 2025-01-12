@@ -7,12 +7,13 @@ EXAMPLE :
 
 Table "name.basics.tsv.gz" has Rows_MLN = 13.9 and columns = 6 :
 
-Column "nconst" Type = "String" # Unique_MLN = 13.9 # Unique_pcts = 100.0% # Empty_pcts = 0.0% #  Prefix detected = nm # 
-Column "primaryName" Type = "String" # Unique_MLN = 10.7 # Unique_pcts = 77.0% # Empty_pcts = 0.0% # 
-Column "birthYear" Type = "Int64" # Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 95.0% # 
-Column "deathYear" Type = "Int64" # Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 98.0% # 
-Column "primaryProfession" Type = "String" # /!\ List detected with ratio 138.0% /!\ Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 19.0% # 
-Column "knownForTitles" Type = "String" # /!\ List detected with ratio 185.0% /!\ Unique_MLN = 5.8 # Unique_pcts = 42.0% # Empty_pcts = 11.0% #  Prefix detected = tt # 
+Column "nconst" Type = "String" # Unique_MLN = 13.9 # Unique_pcts = 100.0% # Empty_pcts = 0.0% #  Prefix detected = nm #
+Column "primaryName" Type = "String" # Unique_MLN = 10.7 # Unique_pcts = 77.0% # Empty_pcts = 0.0% #
+Column "birthYear" Type = "Int64" # Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 95.0% #
+Column "deathYear" Type = "Int64" # Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 98.0% #
+Column "primaryProfession" Type = "String" # /!\ List detected with ratio 138.0% /!\ Unique_MLN = 0.0 # Unique_pcts = 0.0% # Empty_pcts = 19.0% #
+Column "knownForTitles" Type = "String" # /!\ List detected with ratio 185.0% /!\ Unique_MLN = 5.8 # Unique_pcts = 42.0% # Empty_pcts = 11.0% #  Prefix detected = tt
+
 Prefix detected : ['nm', 'tt']
 Primary Key is ['nconst'] has size_MLN [13.9]
 Foreign Key could be ['knownForTitles_exploded'] has size_MLN [5.8]
